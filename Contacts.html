@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contacts</title>
+  </head>
+  <body>
+    <table cellspacing="3"> <!-- This creates a table -->
+      <thead> <!-- This creates a table header -->
+        <tr>
+          <th align="left">Type</th> <!-- This creates a table header cell-->
+          <th align="left">Description</th>
+        </tr>
+      </thead>
+      <tbody> <!-- This creates a table body -->
+        <tr> <!-- This creates a table row-->
+          <td valign="top"><strong>Phone</strong></td> <!-- This creates a table data -->
+          <td><em>+1 (469) 732 9711</em></td>
+        </tr>
+        <br>
+        <tr>
+          <td valign="top"><strong>Address</strong></td>
+          <td><em>337 Lancaster Ct,<br>Piscataway, NJ <br>08854</em></td>
+        </tr>
+        <br>
+        <tr>
+          <td valign="top"><strong>Email</strong></td>
+          <td><em>chintan.modi@outlook.com</em></td>
+        </tr>
+      </tbody>
+      <tfoot> <!-- This creates a table footer -->
+      </tfoot>
+    </table>
+<br>
+<hr>
+<br>
+
+    <form action="mailto:chintanmodi92@gmail.com" method="post" enctype="text/plain"> <!-- To define what should go into our forms -->
+      <label>Your Name:</label> <!-- write the text that displays as a label  -->
+      <input type="text" name="yourName" value=""> <br> <!-- self closing tag, defined by type attribute -->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""> <br>
+      <label>Your Message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
